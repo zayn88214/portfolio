@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects | Zain Ul Abideen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="../images/coding.png" />
+  </head>
+  <body>
+    <div class="ambient-bg" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Zain home">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span class="brand-text">ZAIN</span>
+        </a>
+        <nav class="nav">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../about/index.html">About Me</a>
+          <a class="nav-link is-active" href="index.html">Projects</a>
+          <a class="nav-link" href="../index.html#services">Services</a>
+          <a class="nav-link" href="../contact/index.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+          </button>
+          <button class="theme-toggle" type="button" aria-label="Toggle theme">
+            <span class="theme-dot" aria-hidden="true"></span>
+          </button>
+          <a href="../hireme/index.html" class="btn btn-hire">Hire Me</a>
+        </div>
+      </div>
+      <div class="mobile-nav" aria-label="Mobile navigation">
+        <a class="nav-link" href="../index.html">Home</a>
+        <a class="nav-link" href="../about/index.html">About Me</a>
+        <a class="nav-link is-active" href="index.html">Projects</a>
+        <a class="nav-link" href="../index.html#services">Services</a>
+        <a class="nav-link" href="../contact/index.html">Contact</a>
+        <a href="../hireme/index.html" class="btn btn-hire">Hire Me</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero reveal">
+        <div class="container">
+          <span class="badge">My Projects</span>
+          <h1>Explore my portfolio of web applications</h1>
+          <p>
+            Showcasing modern technologies and innovative solutions built with a
+            focus on performance, usability, and business impact.
+          </p>
+          <div class="search-row">
+            <span class="badge">Projects are about to upload soon</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="work reveal">
+        <div class="container">
+          <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all" type="button">All</button>
+            <button class="filter-btn" data-filter="web" type="button">Web</button>
+            <button class="filter-btn" data-filter="app" type="button">App</button>
+            <button class="filter-btn" data-filter="design" type="button">Design</button>
+          </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="portfolio-modal" id="portfolioModal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" type="button" aria-label="Close project details">&times;</button>
+        <img class="modal-image" src="" alt="Project preview" />
+        <div class="modal-body">
+          <h3 class="modal-title"></h3>
+          <p class="modal-desc"></p>
+          <a class="btn btn-primary modal-link" href="#" target="_blank" rel="noreferrer">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a class="brand" href="../index.html" aria-label="Zain Ul Abideen home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span class="brand-text">Zain</span>
+      </a>
+          <button class="cookie-settings" type="button">Cookie Settings</button>
+        </div>
+        <div class="footer-meta">
+          <p>Copyright © 2026 Zain Ul Abideen</p>
+          <a class="footer-meta-item" href="mailto:zayn88214@gmail.com">
+            <span class="footer-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </span>
+            <span>zayn88214@gmail.com</span>
+          </a>
+          <a class="footer-meta-item" href="tel:+923267287001">
+            <span class="footer-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.57 2.5a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.67-1.12a2 2 0 0 1 2.11-.45c.8.27 1.64.45 2.5.57A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </span>
+            <span>+92 3267287001</span>
+          </a>
+        </div>
+        <div class="footer-socials">
+          <a class="footer-social" href="https://github.com/zayn88214" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 21.13V24"></path>
+            </svg>
+          </a>
+          <a class="footer-social" href="https://www.linkedin.com/in/zain-ul-abideen-055578375" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.469v6.766z"></path>
+            </svg>
+          </a>
+          <a class="footer-social" href="mailto:zayn88214@gmail.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cookie" role="dialog" aria-live="polite">
+      <div class="cookie-inner">
+        <div>
+          <h3>Cookies & Privacy</h3>
+          <p>
+            Your privacy is important to us. We use cookies to improve your
+            browsing experience, provide essential site functionality, and
+            understand how you interact with our website.
+          </p>
+        </div>
+        <div class="cookie-actions">
+          <button class="btn btn-primary" id="acceptCookies">Accept All Cookies</button>
+          <button class="btn btn-ghost" id="rejectCookies">Reject</button>
+          <button class="btn btn-outline" id="customizeCookies">Customize</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
